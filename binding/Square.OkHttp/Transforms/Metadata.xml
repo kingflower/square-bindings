@@ -7,7 +7,7 @@
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
 
-  <attr path="/api/package[@name='com.squareup.okhttp']" name="managedName">Square.OkHttp</attr>
+  <attr path="/api/package[@name='com.squareup.okhttp']" name="managedName">CustomSquare.OkHttp</attr>
   
   <remove-node path="/api/package[starts-with(@name, 'com.squareup.okhttp.internal')]" />
   <remove-node path="/api/package/class[@visibility='']" />
